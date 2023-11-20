@@ -9,3 +9,6 @@ if __name__ == "__main__":
     S = Spray(3,"Spray", "Rojo", 3,1)
 
     print("Seleccione un Accesorio para dibujar")
+    print("1) Lapiz")
+    print("2) Pincel")
+    print("3) Spray")
