@@ -1,2 +1,17 @@
-asdad
+Pregunta 1
+git remote push -u <nombre Asignado a repositorio remoto> <nombre brach a cual subir>
+
+Pregunta 2
+Puerta requiere vivienda para existir
+Parcela-Casa-Departamente heredan los atributos y metodo de Casa
+
+Pregunta 3
+La clase Z no obtiene los atributos de la clase X, puesto que esta ultima es una subclase,
+por lo cual x es quien usa los atributos de la superclase Z 
+
+Pregunta 4
+-Overide
+-
+-
+
 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
