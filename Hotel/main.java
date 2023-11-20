@@ -12,16 +12,16 @@ public class main{
         int rut;
         int tCredito;
         do{
-            System.out.println("Porfavor ingrese la fecha cuando quiere reservar, no olvide que estamos en noviembre")
-            Scanner lec = new Scanner(System.in)
+            System.out.println("Porfavor ingrese la fecha cuando quiere reservar, no olvide que estamos en noviembre");
+            Scanner lec = new Scanner(System.in);
             int fechaInic = lec.nextInt();
             if(fechaInic<=1 || fechaInic >= 30){
                 System.out.println("DIa invalido, recuerde que noviembre tiene solo 30 dias");
             }
         } while(fechaInic <=1 && fechaInic >= 30);
         do{
-            System.out.println("Porfavor ingrese la fecha de salida quiere reservar, no olvide que estamos llenos en diciembre")
-            Scanner lec = new Scanner(System.in)
+            System.out.println("Porfavor ingrese la fecha de salida quiere reservar, no olvide que estamos llenos en diciembre");
+            Scanner lec = new Scanner(System.in);
             int fechaFin = lec.nextInt();
             if(fechaFin >= fechaInic || fechaFin >= 30){
                 System.out.println("DIa invalido");
@@ -35,10 +35,10 @@ public class main{
             println("Todas las habitaciones estan dispinibles");
             Cliente.Crearreserva(fechaInic, fechaFin, habNum);
         } else if(habNum<=4 && habNum >2){
-            println("La habitacion 3 y 4, estan disponibles")
+            println("La habitacion 3 y 4, estan disponibles");
             Cliente.Crearreserva(fechaInic, fechaFin, habNum);
         } else if(habNUm <=10 && habNum >4){
-            println("La habitacion 5 e la unica dispinible ")
+            println("La habitacion 5 e la unica dispinible ");
             Cliente.Crearreserva(fechaInic, fechaFin, habNum);
         }
 //Reserva nuevaR = new Reserva(fechaInic,fechaFin,cantP, habNum);
